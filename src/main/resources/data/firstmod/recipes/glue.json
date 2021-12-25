@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "firstmod:hoof"
+  },
+  "result": {
+    "item": "firstmod:glue"
+  },
+  "experience": 0.1
+}

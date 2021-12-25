@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "firstmod:copper_nugget"
+    },
+    "b": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "firstmod:copper_lantern"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa ",
+    "ab ",
+    "  a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "firstmod:glue"
+    }
+  },
+  "result": {
+    "item": "minecraft:lead"
+  }
+}

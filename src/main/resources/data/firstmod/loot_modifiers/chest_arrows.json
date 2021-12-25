@@ -1,0 +1,42 @@
+{
+  "type": "firstmod:chest_arrows",
+  "conditions": [
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+	      "condition": "forge:loot_table_id",
+	      "loot_table_id": "minecraft:chests/spawn_bonus_chest"
+	    },
+	    {
+	      "condition": "forge:loot_table_id",
+	      "loot_table_id": "minecraft:chests/bastion_bridge"
+	    },
+	    {
+	      "condition": "forge:loot_table_id",
+	      "loot_table_id": "minecraft:chests/bastion_hoglin_stable"
+	    },
+	    {
+	      "condition": "forge:loot_table_id",
+	      "loot_table_id": "minecraft:chests/bastion_other"
+	    },
+	    {
+	      "condition": "forge:loot_table_id",
+	      "loot_table_id": "minecraft:chests/jungle_temple_dispenser"
+	    },
+	    {
+	      "condition": "forge:loot_table_id",
+	      "loot_table_id": "minecraft:chests/pillager_outpost"
+	    },
+	    {
+	      "condition": "forge:loot_table_id",
+	      "loot_table_id": "minecraft:chests/village/village_fletcher"
+	    },
+	    {
+	      "condition": "forge:loot_table_id",
+	      "loot_table_id": "minecraft:gameplay/hero_of_the_village/gift_fletcher"
+	    }
+	  ]
+	}
+  ]
+}

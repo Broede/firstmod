@@ -1,0 +1,13 @@
+{
+  "type": "firstmod:add_hooves",
+  "hoof_drop": "firstmod:hoof",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "#firstmod:hooved_animals"
+      }
+    }
+  ]
+}

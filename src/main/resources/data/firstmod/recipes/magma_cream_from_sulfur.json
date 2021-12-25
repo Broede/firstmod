@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:sulfur"
+    },
+    {
+      "item": "firstmod:sulfur"
+    },
+    {
+      "item": "firstmod:sulfur"
+    },
+    {
+      "tag": "firstmod:stickies"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magma_cream"
+  }
+}

@@ -1,0 +1,29 @@
+modLoader="javafml"
+# Forge for 1.18.1 is version 39
+loaderVersion="[39,)"
+license="All rights reserved"
+showAsResourcePack=false
+
+[[mods]]
+    modId="firstmod"
+    version="0.1.0.0"
+    displayName="Broede's First Mod"
+    credits="Credit to Broede I guess?"
+    authors="The Broede Show"
+    description='''
+Uh, fun stuff for Broede and his friends.
+    '''
+
+[[dependencies.firstmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.firstmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,)"
+    ordering="NONE"
+    side="BOTH"

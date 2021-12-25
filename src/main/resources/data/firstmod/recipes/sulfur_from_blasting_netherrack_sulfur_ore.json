@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "firstmod:netherrack_sulfur_ore"
+  },
+  "result": "firstmod:sulfur",
+  "experience": 0.1,
+  "cookingtime": 100
+}

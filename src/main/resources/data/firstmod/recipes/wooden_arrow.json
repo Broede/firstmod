@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  a",
+    " a ",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "firstmod:feather_fletching"
+    }
+  },
+  "result": {
+    "item": "firstmod:wooden_arrow"
+  }
+}

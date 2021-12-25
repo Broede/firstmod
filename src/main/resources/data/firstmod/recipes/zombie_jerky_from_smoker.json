@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": {
+    "item": "firstmod:zombie_jerky"
+  },
+  "experience": 0.05
+}

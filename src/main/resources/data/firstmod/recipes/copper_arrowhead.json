@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:copper_nugget"
+    }
+  ],
+  "result": {
+    "item": "firstmod:copper_arrowhead"
+  }
+}

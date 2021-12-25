@@ -1,0 +1,12 @@
+{
+  "type": "firstmod:swap_arrows",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "#firstmod:arrow_droppers"
+      }
+    }
+  ]
+}
