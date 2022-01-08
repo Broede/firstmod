@@ -2,14 +2,22 @@ package firstmod.util;
 
 import firstmod.core.FirstMod;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.EntityTypeTags;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.Tag;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.Tags;
 
 public class ModTags {
+	public static final Tag.Named<Block> END_ORE_REPLACEABLES = bind("end_ore_replaceables");
 
+	public static Tag.Named<Block> bind(String p_13117_) {
+		return BlockTags.bind(p_13117_);
+	}
+	
 	public static class EntityTypes {
 
 		public static final Tags.IOptionalNamedTag<EntityType<?>> HOOVED_ANIMALS = createTag("entity_types/hooved_animals");

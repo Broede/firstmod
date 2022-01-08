@@ -1,6 +1,5 @@
 {
   "type": "firstmod:add_hooves",
-  "hoof_drop": "firstmod:hoof",
   "conditions": [
     {
       "condition": "minecraft:entity_properties",

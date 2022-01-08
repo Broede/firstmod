@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "firstmod:raw_platinum_block"
+  },
+  "result": "firstmod:platinum_block",
+  "experience": 6.3,
+  "cookingtime": 900
+}

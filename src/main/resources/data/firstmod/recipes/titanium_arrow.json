@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  a",
+    " b ",
+    "c  "
+  ],
+  "key": {
+    "a": {
+      "item": "firstmod:titanium_arrowhead"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "firstmod:feather_fletching"
+    }
+  },
+  "result": {
+    "item": "firstmod:titanium_arrow"
+  }
+}

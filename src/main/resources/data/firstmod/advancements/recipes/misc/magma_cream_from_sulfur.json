@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "firstmod:magma_cream_from_sulfur"
+    ]
+  },
+  "criteria": {
+    "has_sulfur": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "firstmod:sulfur"
+            ]
+          }
+        ]
+      }
+    },
+    "has_blaze_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blaze_powder"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "firstmod:magma_cream_from_sulfur"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sulfur",
+      "has_blaze_powder",
+      "has_the_recipe"
+    ]
+  ]
+}

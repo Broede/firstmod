@@ -1,0 +1,11 @@
+{
+    "parent": "item/shield",
+    "overrides": [
+        {
+            "predicate": {
+                "firstmod:blocking": 1
+            },
+            "model": "firstmod:item/buckler_blocking"
+        }
+    ]
+}

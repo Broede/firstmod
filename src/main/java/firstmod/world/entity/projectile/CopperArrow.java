@@ -10,6 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class CopperArrow extends AbstractArrow {
+	
 	private final Item referenceItem;
 	
 	public CopperArrow(EntityType<? extends AbstractArrow> type, Level level) {

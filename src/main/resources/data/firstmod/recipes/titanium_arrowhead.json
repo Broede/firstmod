@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:titanium_nugget"
+    }
+  ],
+  "result": {
+    "item": "firstmod:titanium_arrowhead"
+  }
+}

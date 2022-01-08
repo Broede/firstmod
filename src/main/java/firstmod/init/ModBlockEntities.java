@@ -3,7 +3,7 @@ package firstmod.init;
 import java.util.function.Supplier;
 
 import firstmod.core.FirstMod;
-import firstmod.tileentity.CopperHopperBlockEntity;
+import firstmod.world.block.entity.CopperHopperBlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "firstmod:deepslate_nickel_ore"
+  },
+  "result": "firstmod:nickel_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

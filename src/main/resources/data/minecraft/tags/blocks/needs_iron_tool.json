@@ -1,7 +1,19 @@
 {
   "replace": false,
   "values": [
+    "firstmod:deepslate_platinum_ore",
+    "firstmod:deepslate_ruby_ore",
+    "firstmod:deepslate_silver_ore",
+    "firstmod:deepslate_titanium_ore",
+    "firstmod:platinum_block",
+    "firstmod:raw_platinum_block",
+    "firstmod:raw_silver_block",
+    "firstmod:raw_titanium_block",
+    "firstmod:silver_block",
+    "firstmod:stone_platinum_ore",
     "firstmod:stone_ruby_ore",
-    "firstmod:deepslate_ruby_ore"
+    "firstmod:stone_silver_ore",
+    "firstmod:stone_titanium_ore",
+    "firstmod:titanium_block"
   ]
 }

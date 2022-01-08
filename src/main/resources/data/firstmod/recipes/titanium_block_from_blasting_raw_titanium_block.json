@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "firstmod:raw_titanium_block"
+  },
+  "result": "firstmod:titanium_block",
+  "experience": 31.5,
+  "cookingtime": 7200
+}

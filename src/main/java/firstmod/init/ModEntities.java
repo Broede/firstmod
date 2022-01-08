@@ -4,6 +4,8 @@ import firstmod.core.FirstMod;
 import firstmod.world.entity.projectile.CopperArrow;
 import firstmod.world.entity.projectile.FlintArrow;
 import firstmod.world.entity.projectile.IronArrow;
+import firstmod.world.entity.projectile.ModFishingHook;
+import firstmod.world.entity.projectile.TitaniumArrow;
 import firstmod.world.entity.projectile.WoodenArrow;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
@@ -30,4 +32,12 @@ public class ModEntities {
 	public static final RegistryObject<EntityType<IronArrow>> IRON_ARROW = ENTITIES.register("iron_arrow",
 			() -> EntityType.Builder.<IronArrow>of(IronArrow::new, MobCategory.MISC).sized(0.5F, 0.5F).clientTrackingRange(4).updateInterval(20).build(
 					new ResourceLocation(FirstMod.MOD_ID, "iron_arrow").toString()));
+	
+	public static final RegistryObject<EntityType<TitaniumArrow>> TITANIUM_ARROW = ENTITIES.register("titanium_arrow",
+			() -> EntityType.Builder.<TitaniumArrow>of(TitaniumArrow::new, MobCategory.MISC).sized(0.5F, 0.5F).clientTrackingRange(4).updateInterval(20).build(
+					new ResourceLocation(FirstMod.MOD_ID, "titanium_arrow").toString()));
+	
+	public static final RegistryObject<EntityType<ModFishingHook>> MOD_FISHING_BOBBER = ENTITIES.register("fishing_hook",
+			() -> EntityType.Builder.<ModFishingHook>of(ModFishingHook::new, MobCategory.MISC).sized(0.25F, 0.25F).clientTrackingRange(4).updateInterval(5).build(
+					new ResourceLocation("fishing_hook").toString()));
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "firstmod:raw_tin_block"
+  },
+  "result": "firstmod:tin_block",
+  "experience": 6.3,
+  "cookingtime": 1800
+}

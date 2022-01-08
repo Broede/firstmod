@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:raw_lead_block"
+    }
+  ],
+  "result": {
+    "item": "firstmod:raw_lead",
+    "count": 9
+  }
+}

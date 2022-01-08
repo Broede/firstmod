@@ -1,7 +1,7 @@
 package firstmod.init;
 
 import firstmod.core.FirstMod;
-import firstmod.world.block.entity.CopperHopperMenu;
+import firstmod.world.inventory.CopperHopperMenu;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraftforge.registries.DeferredRegister;

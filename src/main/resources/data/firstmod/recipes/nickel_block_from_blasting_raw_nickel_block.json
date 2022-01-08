@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "firstmod:raw_nickel_block"
+  },
+  "result": "firstmod:nickel_block",
+  "experience": 6.3,
+  "cookingtime": 900
+}

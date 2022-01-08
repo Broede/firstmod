@@ -7,6 +7,7 @@ import firstmod.init.ModBlockEntities;
 import firstmod.init.ModBlocks;
 import firstmod.init.ModContainers;
 import firstmod.init.ModEntities;
+import firstmod.init.ModFluids;
 import firstmod.init.ModItems;
 import firstmod.init.ModLootModifiers;
 import firstmod.world.OreGeneration;
@@ -36,6 +37,7 @@ public class FirstMod {
 		ModBlockEntities.BLOCK_ENTITIES.register(eventBus);
 		ModContainers.CONTAINERS.register(eventBus);
 		ModEntities.ENTITIES.register(eventBus);
+		ModFluids.FLUIDS.register(eventBus);
 		ModItems.ITEMS.register(eventBus);
 		ModLootModifiers.GLM.register(eventBus);
 

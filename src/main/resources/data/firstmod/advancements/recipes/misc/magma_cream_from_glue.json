@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "firstmod:magma_cream_from_glue"
+    ]
+  },
+  "criteria": {
+    "has_glue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "firstmod:glue"
+            ]
+          }
+        ]
+      }
+    },
+    "has_blaze_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blaze_powder"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "firstmod:magma_cream_from_glue"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_glue",
+      "has_blaze_powder",
+      "has_the_recipe"
+    ]
+  ]
+}

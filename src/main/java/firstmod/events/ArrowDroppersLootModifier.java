@@ -29,8 +29,7 @@ public class ArrowDroppersLootModifier extends LootModifier {
 
 		@Override
 		public JsonObject write(ArrowDroppersLootModifier instance) {
-			JsonObject json = makeConditions(instance.conditions);
-			return json;
+			return makeConditions(instance.conditions);
 		}
     }
 	

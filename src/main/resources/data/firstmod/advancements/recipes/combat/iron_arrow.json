@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "firstmod:iron_arrow"
+    ]
+  },
+  "criteria": {
+    "has_iron_arrowhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "firstmod:iron_arrowhead"
+            ]
+          }
+        ]
+      }
+    },
+    "has_feather_fletching": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "firstmod:feather_fletching"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "firstmod:iron_arrow"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_iron_arrowhead",
+      "has_feather_fletching",
+      "has_the_recipe"
+    ]
+  ]
+}

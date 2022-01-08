@@ -1,7 +1,23 @@
 {
   "replace": false,
   "values": [
+    "firstmod:aluminum_block",
     "firstmod:copper_hopper",
-    "firstmod:netherrack_sulfur_ore"
+    "firstmod:deepslate_aluminum_ore",
+    "firstmod:deepslate_lead_ore",
+    "firstmod:deepslate_nickel_ore",
+    "firstmod:deepslate_tin_ore",
+    "firstmod:lead_block",
+    "firstmod:netherrack_sulfur_ore",
+    "firstmod:nickel_block",
+    "firstmod:raw_aluminum_block",
+    "firstmod:raw_lead_block",
+    "firstmod:raw_nickel_block",
+    "firstmod:raw_tin_block",
+    "firstmod:stone_aluminum_ore",
+    "firstmod:stone_lead_ore",
+    "firstmod:stone_nickel_ore",
+    "firstmod:stone_tin_ore",
+    "firstmod:tin_block"
   ]
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "firstmod:item/copper_fishing_rod",
+    "textures": {
+        "layer0": "firstmod:item/copper_fishing_rod_cast"
+    }
+}

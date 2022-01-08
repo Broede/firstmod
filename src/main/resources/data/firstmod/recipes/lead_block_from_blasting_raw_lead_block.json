@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "firstmod:raw_lead_block"
+  },
+  "result": "firstmod:lead_block",
+  "experience": 6.3,
+  "cookingtime": 900
+}
