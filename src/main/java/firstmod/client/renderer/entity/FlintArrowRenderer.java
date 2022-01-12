@@ -1,7 +1,7 @@
 package firstmod.client.renderer.entity;
 
 import firstmod.core.FirstMod;
-import firstmod.world.entity.projectile.FlintArrow;
+import firstmod.world.level.entity.projectile.FlintArrow;
 import net.minecraft.client.renderer.entity.ArrowRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider.Context;
 import net.minecraft.resources.ResourceLocation;

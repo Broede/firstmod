@@ -7,8 +7,8 @@ import com.mojang.math.Matrix4f;
 import com.mojang.math.Vector3f;
 
 import firstmod.core.FirstMod;
-import firstmod.world.entity.projectile.ModFishingHook;
-import firstmod.world.item.ModFishingRodItem;
+import firstmod.world.level.entity.projectile.ModFishingHook;
+import firstmod.world.level.item.ModFishingRodItem;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.RenderType;

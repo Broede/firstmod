@@ -1,16 +1,16 @@
 package firstmod.init;
 
 import firstmod.core.FirstMod;
-import firstmod.world.item.BucklerItem;
-import firstmod.world.item.CopperArrowItem;
-import firstmod.world.item.FlintArrowItem;
-import firstmod.world.item.IronArrowItem;
-import firstmod.world.item.ModArmorMaterial;
-import firstmod.world.item.ModFishingRodItem;
-import firstmod.world.item.ModTiers;
-import firstmod.world.item.TitaniumArrowItem;
-import firstmod.world.item.ToughOreItem;
-import firstmod.world.item.WoodenArrowItem;
+import firstmod.world.level.item.BucklerItem;
+import firstmod.world.level.item.CopperArrowItem;
+import firstmod.world.level.item.FlintArrowItem;
+import firstmod.world.level.item.IronArrowItem;
+import firstmod.world.level.item.ModArmorMaterial;
+import firstmod.world.level.item.ModFishingRodItem;
+import firstmod.world.level.item.ModTiers;
+import firstmod.world.level.item.TitaniumArrowItem;
+import firstmod.world.level.item.ToughOreItem;
+import firstmod.world.level.item.WoodenArrowItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.ArmorItem;
@@ -24,6 +24,7 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ShearsItem;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Item.Properties;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -183,6 +184,8 @@ public class ModItems {
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	public static final RegistryObject<Item> PLATINUM_NUGGET = ITEMS.register("platinum_nugget",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+	public static final RegistryObject<Item> RAW_LATEX = ITEMS.register("raw_latex",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	public static final RegistryObject<Item> SULFUR = ITEMS.register("sulfur",
@@ -208,10 +211,5 @@ public class ModItems {
 	// Diamond rings get special properties.
 	public static final RegistryObject<Item> DIAMOND_RING = ITEMS.register("diamond_ring",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-	
-	// New fluid buckets!
-	public static final RegistryObject<Item> CRUDE_OIL_BUCKET = ITEMS.register("crude_oil_bucket",
-			() -> new BucketItem(() -> ModFluids.CRUDE_OIL_SOURCE.get(),
-					new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC)));
 	
 }

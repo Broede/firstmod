@@ -3,14 +3,18 @@ package firstmod.core;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import firstmod.client.gui.screens.inventory.CopperHopperScreen;
+import firstmod.client.renderer.item.ModItemProperties;
+import firstmod.data.worldgen.OreGeneration;
 import firstmod.init.ModBlockEntities;
 import firstmod.init.ModBlocks;
 import firstmod.init.ModContainers;
 import firstmod.init.ModEntities;
-import firstmod.init.ModFluids;
 import firstmod.init.ModItems;
 import firstmod.init.ModLootModifiers;
-import firstmod.world.OreGeneration;
+import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -37,7 +41,6 @@ public class FirstMod {
 		ModBlockEntities.BLOCK_ENTITIES.register(eventBus);
 		ModContainers.CONTAINERS.register(eventBus);
 		ModEntities.ENTITIES.register(eventBus);
-		ModFluids.FLUIDS.register(eventBus);
 		ModItems.ITEMS.register(eventBus);
 		ModLootModifiers.GLM.register(eventBus);
 
@@ -46,6 +49,18 @@ public class FirstMod {
 
     @SubscribeEvent
 	public void onCommonSetup(final FMLCommonSetupEvent event) {
+		ItemBlockRenderTypes.setRenderLayer(ModBlocks.COPPER_DOOR.get(), RenderType.cutout());
+    	ItemBlockRenderTypes.setRenderLayer(ModBlocks.COPPER_TRAPDOOR.get(), RenderType.cutout());
+    	ItemBlockRenderTypes.setRenderLayer(ModBlocks.COPPER_BARS.get(), RenderType.cutout());
+    	ItemBlockRenderTypes.setRenderLayer(ModBlocks.COPPER_CHAIN.get(), RenderType.cutout());
+    	ItemBlockRenderTypes.setRenderLayer(ModBlocks.COPPER_LANTERN.get(), RenderType.cutout());
+    	ItemBlockRenderTypes.setRenderLayer(ModBlocks.SHARINGA_LEAVES.get(), RenderType.cutout());
+    	ItemBlockRenderTypes.setRenderLayer(ModBlocks.SHARINGA_SAPLING.get(), RenderType.cutout());
+
+    	ModItemProperties.fishingRodStates(ModItems.COPPER_FISHING_ROD.get());
+    	ModItemProperties.fishingRodStates(ModItems.TITANIUM_FISHING_ROD.get());
+    	ModItemProperties.shieldStates(ModItems.BUCKLER.get());
+    	event.enqueueWork(() -> MenuScreens.register(ModContainers.COPPER_HOPPER.get(), CopperHopperScreen::new));
     	OreGeneration.registerOres();
 	}
     

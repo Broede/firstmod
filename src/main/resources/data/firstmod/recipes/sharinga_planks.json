@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "firstmod:sharinga_logs"
+    }
+  ],
+  "result": {
+    "item": "firstmod:sharinga_planks",
+    "count": 4
+  }
+}

@@ -1,7 +1,7 @@
 package firstmod.client.renderer.item;
 
 import firstmod.core.FirstMod;
-import firstmod.world.item.ModFishingRodItem;
+import firstmod.world.level.item.ModFishingRodItem;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Player;

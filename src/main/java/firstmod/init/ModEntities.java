@@ -1,12 +1,12 @@
 package firstmod.init;
 
 import firstmod.core.FirstMod;
-import firstmod.world.entity.projectile.CopperArrow;
-import firstmod.world.entity.projectile.FlintArrow;
-import firstmod.world.entity.projectile.IronArrow;
-import firstmod.world.entity.projectile.ModFishingHook;
-import firstmod.world.entity.projectile.TitaniumArrow;
-import firstmod.world.entity.projectile.WoodenArrow;
+import firstmod.world.level.entity.projectile.CopperArrow;
+import firstmod.world.level.entity.projectile.FlintArrow;
+import firstmod.world.level.entity.projectile.IronArrow;
+import firstmod.world.level.entity.projectile.ModFishingHook;
+import firstmod.world.level.entity.projectile.TitaniumArrow;
+import firstmod.world.level.entity.projectile.WoodenArrow;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;

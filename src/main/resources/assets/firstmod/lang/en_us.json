@@ -32,6 +32,11 @@
   "block.firstmod.raw_silver_block": "Raw Silver Block",
   "block.firstmod.raw_tin_block": "Raw Tin Block",
   "block.firstmod.raw_titanium_block": "Raw Titanium Block",
+  "block.firstmod.sharinga_leaves": "Sharinga Leaves",
+  "block.firstmod.sharinga_log": "Sharinga Log",
+  "block.firstmod.sharinga_planks": "Sharinga Planks",
+  "block.firstmod.sharinga_sapling": "Sharinga Sapling",
+  "block.firstmod.sharinga_wood": "Sharinga Wood",
   "block.firstmod.silver_block": "Silver Block",
   "block.firstmod.stone_aluminum_ore": "Aluminum Ore",
   "block.firstmod.stone_lead_ore": "Lead Ore",
@@ -41,13 +46,13 @@
   "block.firstmod.stone_silver_ore": "Silver Ore",
   "block.firstmod.stone_tin_ore": "Tin Ore",
   "block.firstmod.stone_titanium_ore": "Titanium Ore",
+  "block.firstmod.stripped_sharinga_log": "Stripped Sharinga Log",
+  "block.firstmod.stripped_sharinga_wood": "Stripped Sharinga Wood",
   "block.firstmod.tin_block": "Tin Block",
   "block.firstmod.titanium_block": "Titanium Block",
 
   "container.firstmod.copper_hopper": "Copper Hopper",
   
-  "fluid.firstmod.crude_oil": "Crude Oil",
-
   "item.firstmod.aluminum_ingot": "Aluminum Ingot",
   "item.firstmod.aluminum_nugget": "Aluminum Nugget",
   
@@ -70,7 +75,6 @@
   "item.firstmod.copper_shears": "Copper Shears",
   "item.firstmod.copper_shovel": "Copper Shovel",
   "item.firstmod.copper_sword": "Copper Sword",
-  "item.firstmod.crude_oil_bucket": "Bucket of Crude Oil",
 
   "item.firstmod.diamond_ring": "Diamond Ring",
 
@@ -99,6 +103,7 @@
   "item.firstmod.raw_borite": "Raw Borite",
   "item.firstmod.raw_cobalt": "Raw Cobalt",
   "item.firstmod.raw_enderite": "Raw Enderite",
+  "item.firstmod.raw_latex": "Raw Latex",
   "item.firstmod.raw_lead": "Raw Lead",
   "item.firstmod.raw_nickel": "Raw Nickel",
   "item.firstmod.raw_platinum": "Raw Platinum",

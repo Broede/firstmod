@@ -3,7 +3,7 @@ package firstmod.events;
 import java.util.Iterator;
 
 import firstmod.core.FirstMod;
-import firstmod.world.item.ModArmorMaterial;
+import firstmod.world.level.item.ModArmorMaterial;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
