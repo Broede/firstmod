@@ -85,7 +85,7 @@ public class OreGeneration {
     }
 
     @SubscribeEvent
-    public static void gen(BiomeLoadingEvent event) {
+    public static void generateOres(final BiomeLoadingEvent event) {
 		BiomeGenerationSettingsBuilder gen = event.getGeneration();
 
 		if ( event.getCategory() == BiomeCategory.THEEND ) {
