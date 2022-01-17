@@ -1,0 +1,17 @@
+{
+  "type": "firstmod:toolkit_crafting",
+  "ingredients": [
+    {
+      "item": "firstmod:aluminum_ingot"
+    },
+    {
+      "item": "firstmod:aluminum_ingot"
+    },
+    {
+      "item": "firstmod:aluminum_ingot"
+    }
+  ],
+  "result": {
+    "item": "firstmod:micro_turbine"
+  }
+}

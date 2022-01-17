@@ -6,7 +6,7 @@ showAsResourcePack=false
 
 [[mods]]
     modId="firstmod"
-    version="0.3.0.0"
+    version="0.4.2.1"
     displayName="Broede's First Mod"
     credits="Credit to Broede I guess?"
     authors="The Broede Show"

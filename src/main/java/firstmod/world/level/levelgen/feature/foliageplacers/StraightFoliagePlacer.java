@@ -13,6 +13,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.util.valueproviders.IntProvider;
 import net.minecraft.world.level.LevelSimulatedReader;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.levelgen.feature.TreeFeature;
 import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacerType;
@@ -37,7 +38,7 @@ public class StraightFoliagePlacer extends FoliagePlacer {
 	@Override
 	protected FoliagePlacerType<?> type() {
 		// TODO Auto-generated method stub
-		return null;
+		return ModFoliagePlacerType.STRAIGHT_FOLIAGE_PLACER;
 	}
 
 //   protected void createFoliage(LevelSimulatedReader p_161360_, BiConsumer<BlockPos, BlockState> p_161361_, Random p_161362_, TreeConfiguration p_161363_,
@@ -53,9 +54,32 @@ public class StraightFoliagePlacer extends FoliagePlacer {
 	}
 
 	@Override
+	protected void placeLeavesRow(LevelSimulatedReader levelSimulatedReader, BiConsumer<BlockPos, BlockState> biConsumer, Random rand,
+			TreeConfiguration treeConfiguration, BlockPos blockPos, int int1, int int2, boolean bool) {
+		int i = bool ? 1 : 0;
+		BlockPos.MutableBlockPos blockpos$mutableblockpos = new BlockPos.MutableBlockPos();
+		int maxrange = Math.abs(int1) + Math.abs(int2);
+
+		for(int j = -int1; j <= int1 + i; ++j) {
+			for(int k = -int1; k <= int1 + i; ++k) {
+				if (!this.shouldSkipLocationSigned(rand, j, int2, k, int1, bool) && !this.shouldSkipSingleBlock(j, k, maxrange) ) {
+					blockpos$mutableblockpos.setWithOffset(blockPos, j, int2, k);
+					FoliagePlacer.tryPlaceLeaf(levelSimulatedReader, biConsumer, rand, treeConfiguration, blockpos$mutableblockpos);
+				}
+			}
+		}
+	}
+	
+	private boolean shouldSkipSingleBlock(int first, int second, int maxRange) {
+		if ( Math.abs(first) + Math.abs(second) >= maxRange )
+			return true;
+		return false;
+	}
+
+	@Override
 	public int foliageHeight(Random p_68568_, int p_68569_, TreeConfiguration p_68570_) {
 		// TODO Auto-generated method stub
-		return 0;
+		return this.height;
 	}
 
 	@Override
@@ -64,5 +88,4 @@ public class StraightFoliagePlacer extends FoliagePlacer {
 		// TODO Auto-generated method stub
 		return false;
 	}
-
 }

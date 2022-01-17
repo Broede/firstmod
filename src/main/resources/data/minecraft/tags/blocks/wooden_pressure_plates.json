@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:maple_pressure_plate",
+    "firstmod:sakura_pressure_plate",
+    "firstmod:sharinga_pressure_plate",
+    "firstmod:willow_pressure_plate"
+  ]
+}

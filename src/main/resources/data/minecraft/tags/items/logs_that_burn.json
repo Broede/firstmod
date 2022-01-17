@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#firstmod:sharinga_logs"
+    "#firstmod:maple_logs",
+    "#firstmod:sakura_logs",
+    "#firstmod:sharinga_logs",
+    "#firstmod:willow_logs"
   ]
 }

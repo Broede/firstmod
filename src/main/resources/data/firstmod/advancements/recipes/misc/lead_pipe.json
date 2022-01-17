@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "firstmod:lead_pipe"
+    ]
+  },
+  "criteria": {
+    "has_basic_toolkit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "firstmod:basic_toolkit"
+            ]
+          }
+        ]
+      }
+    },
+    "has_lead_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "firstmod:lead_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "firstmod:lead_pipe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_basic_toolkit",
+      "has_lead_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

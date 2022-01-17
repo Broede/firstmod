@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "firstmod:stripped_willow_log"
+    }
+  },
+  "result": {
+    "item": "firstmod:stripped_willow_wood",
+    "count": 3
+  }
+}

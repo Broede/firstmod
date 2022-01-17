@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "firstmod:stripped_sakura_log"
+    }
+  },
+  "result": {
+    "item": "firstmod:stripped_sakura_wood",
+    "count": 3
+  }
+}

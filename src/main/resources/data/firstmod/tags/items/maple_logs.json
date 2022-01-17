@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:maple_log",
+    "firstmod:maple_wood",
+    "firstmod:stripped_maple_log",
+    "firstmod:stripped_maple_wood"
+  ]
+}

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "firstmod:sharinga_planks"
+    "firstmod:maple_planks",
+    "firstmod:sakura_planks",
+    "firstmod:sharinga_planks",
+    "firstmod:willow_planks"
   ]
 }

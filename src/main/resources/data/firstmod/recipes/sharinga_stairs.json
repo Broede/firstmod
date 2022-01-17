@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "firstmod:sharinga_planks"
+    }
+  },
+  "result": {
+    "item": "firstmod:sharinga_stairs",
+    "count": 4
+  }
+}

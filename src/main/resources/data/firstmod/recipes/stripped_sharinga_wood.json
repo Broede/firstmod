@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "group": "bark",
   "pattern": [
-    "##",
-    "##"
+    "aa",
+    "aa"
   ],
   "key": {
-    "#": {
+    "a": {
       "item": "firstmod:stripped_sharinga_log"
     }
   },

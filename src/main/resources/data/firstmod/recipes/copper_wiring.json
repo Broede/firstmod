@@ -1,0 +1,11 @@
+{
+  "type": "firstmod:toolkit_crafting",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "result": {
+    "item": "firstmod:copper_wiring"
+  }
+}

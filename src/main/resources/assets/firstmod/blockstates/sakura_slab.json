@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "firstmod:block/sakura_slab"
+    },
+    "type=double": {
+      "model": "firstmod:block/sakura_planks"
+    },
+    "type=top": {
+      "model": "firstmod:block/sakura_slab_top"
+    }
+  }
+}

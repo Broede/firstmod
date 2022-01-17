@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:maple_fence",
+    "firstmod:sakura_fence",
+    "firstmod:sharinga_fence",
+    "firstmod:willow_fence"
+  ]
+}

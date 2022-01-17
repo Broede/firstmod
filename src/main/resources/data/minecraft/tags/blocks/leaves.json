@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "firstmod:sharinga_leaves"
+    "firstmod:maple_leaves",
+    "firstmod:sakura_leaves",
+    "firstmod:sharinga_leaves",
+    "firstmod:willow_leaves"
   ]
 }

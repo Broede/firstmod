@@ -1,6 +1,7 @@
 package firstmod.init;
 
 import firstmod.core.FirstMod;
+import firstmod.world.level.item.BasicToolkitItem;
 import firstmod.world.level.item.BucklerItem;
 import firstmod.world.level.item.CopperArrowItem;
 import firstmod.world.level.item.FlintArrowItem;
@@ -9,13 +10,15 @@ import firstmod.world.level.item.ModArmorMaterial;
 import firstmod.world.level.item.ModFishingRodItem;
 import firstmod.world.level.item.ModTiers;
 import firstmod.world.level.item.TitaniumArrowItem;
+import firstmod.world.level.item.ToolkitItem;
+import firstmod.world.level.item.ToolkitType;
 import firstmod.world.level.item.ToughOreItem;
 import firstmod.world.level.item.WoodenArrowItem;
+import firstmod.world.level.item.WrenchToolItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.AxeItem;
-import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.HorseArmorItem;
@@ -164,9 +167,17 @@ public class ModItems {
 	// New crafting materials!
 	public static final RegistryObject<Item> ALUMINUM_NUGGET = ITEMS.register("aluminum_nugget",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+	public static final RegistryObject<Item> BASIC_TOOLKIT = ITEMS.register("basic_toolkit",
+			() -> new BasicToolkitItem());
+	public static final RegistryObject<Item> BASIC_TOOLSET = ITEMS.register("basic_toolset",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	public static final RegistryObject<Item> COPPER_ARROWHEAD = ITEMS.register("copper_arrowhead",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+	public static final RegistryObject<Item> COPPER_WIRING = ITEMS.register("copper_wiring",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+	public static final RegistryObject<Item> EMPTY_TOOLBOX = ITEMS.register("empty_toolbox",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	public static final RegistryObject<Item> FEATHER_FLETCHING = ITEMS.register("feather_fletching",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
@@ -178,7 +189,11 @@ public class ModItems {
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	public static final RegistryObject<Item> LEAD_NUGGET = ITEMS.register("lead_nugget",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+	public static final RegistryObject<Item> LEAD_PIPE = ITEMS.register("lead_pipe",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	public static final RegistryObject<Item> LEATHER_SCRAPS = ITEMS.register("leather_scraps",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+	public static final RegistryObject<Item> MICRO_TURBINE = ITEMS.register("micro_turbine",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	public static final RegistryObject<Item> NICKEL_NUGGET = ITEMS.register("nickel_nugget",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
@@ -198,6 +213,8 @@ public class ModItems {
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	public static final RegistryObject<Item> UNCUT_RUBY = ITEMS.register("uncut_ruby",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+	public static final RegistryObject<Item> WRENCH = ITEMS.register("wrench",
+			() -> new WrenchToolItem());
 	
 	// Ring components!
 	public static final RegistryObject<Item> COPPER_SETTING = ITEMS.register("copper_setting",
@@ -207,9 +224,9 @@ public class ModItems {
 	public static final RegistryObject<Item> RUBY_GEMSTONE = ITEMS.register("ruby_gemstone",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	
-	
 	// Diamond rings get special properties.
 	public static final RegistryObject<Item> DIAMOND_RING = ITEMS.register("diamond_ring",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-	
+
+	// Miscellaneous stuffs.
 }

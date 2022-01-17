@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "firstmod:sakura_planks"
+    }
+  ],
+  "result": {
+    "item": "firstmod:sakura_button"
+  }
+}

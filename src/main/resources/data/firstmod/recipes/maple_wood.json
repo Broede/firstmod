@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "firstmod:maple_log"
+    }
+  },
+  "result": {
+    "item": "firstmod:maple_wood",
+    "count": 3
+  }
+}

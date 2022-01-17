@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:willow_log",
+    "firstmod:willow_wood",
+    "firstmod:stripped_willow_log",
+    "firstmod:stripped_willow_wood"
+  ]
+}

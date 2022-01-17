@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "firstmod:block/maple_pressure_plate"
+    },
+    "powered=true": {
+      "model": "firstmod:block/maple_pressure_plate_down"
+    }
+  }
+}

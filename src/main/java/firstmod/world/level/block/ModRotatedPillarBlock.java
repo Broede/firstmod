@@ -48,6 +48,18 @@ public class ModRotatedPillarBlock extends RotatedPillarBlock implements IForgeB
             if(state.is(ModBlocks.SHARINGA_WOOD.get())) {
                 return ModBlocks.STRIPPED_SHARINGA_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
+            if(state.is(ModBlocks.SAKURA_LOG.get())) {
+            	return ModBlocks.STRIPPED_SAKURA_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
+            if(state.is(ModBlocks.SAKURA_WOOD.get())) {
+            	return ModBlocks.STRIPPED_SAKURA_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
+            if(state.is(ModBlocks.MAPLE_LOG.get())) {
+            	return ModBlocks.STRIPPED_MAPLE_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
+            if(state.is(ModBlocks.MAPLE_WOOD.get())) {
+            	return ModBlocks.STRIPPED_MAPLE_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
         }
 
         return super.getToolModifiedState(state, world, pos, player, stack, toolAction);

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "firstmod:willow_log"
+    }
+  },
+  "result": {
+    "item": "firstmod:willow_wood",
+    "count": 3
+  }
+}

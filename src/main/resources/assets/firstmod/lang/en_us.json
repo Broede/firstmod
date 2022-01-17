@@ -1,5 +1,6 @@
 {
   "block.firstmod.aluminum_block": "Aluminum Block",
+  
   "block.firstmod.charcoal_block": "Charcoal Block",
   "block.firstmod.copper_bars": "Copper Bars",
   "block.firstmod.copper_button": "Copper Button",
@@ -9,6 +10,7 @@
   "block.firstmod.copper_hopper": "Copper Hopper",
   "block.firstmod.copper_pressure_plate": "Copper Pressure Plate",
   "block.firstmod.copper_trapdoor": "Copper Trapdoor",
+  
   "block.firstmod.deepslate_aluminum_ore": "Deepslate Aluminum Ore",
   "block.firstmod.deepslate_lead_ore": "Deepslate Lead Ore",
   "block.firstmod.deepslate_nickel_ore": "Deepslate Nickel Ore",
@@ -17,14 +19,33 @@
   "block.firstmod.deepslate_silver_ore": "Deepslate Silver Ore",
   "block.firstmod.deepslate_tin_ore": "Deepslate Tin Ore",
   "block.firstmod.deepslate_titanium_ore": "Deepslate Titanium Ore",
+  
   "block.firstmod.enderite_ore": "Enderite Ore",
+  
   "block.firstmod.lead_block": "Lead Block",
+
+  "block.firstmod.maple_button": "Maple Button",
+  "block.firstmod.maple_door": "Maple Door",
+  "block.firstmod.maple_fence": "Maple Fence",
+  "block.firstmod.maple_fence_gate": "Maple Fence Gate",
+  "block.firstmod.maple_leaves": "Maple Leaves",
+  "block.firstmod.maple_log": "Maple Log",
+  "block.firstmod.maple_planks": "Maple Planks",
+  "block.firstmod.maple_pressure_plate": "Maple Pressure Plate",
+  "block.firstmod.maple_sapling": "Maple Sapling",
+  "block.firstmod.maple_slab": "Maple Slab",
+  "block.firstmod.maple_stairs": "Maple Stairs",
+  "block.firstmod.maple_trapdoor": "Maple Trapdoor",
+  "block.firstmod.maple_wood": "Maple Wood",
+  
   "block.firstmod.netherrack_borite_ore": "Borite Ore",
   "block.firstmod.netherrack_cobalt_ore": "Cobalt Ore",
   "block.firstmod.netherrack_radium_ore": "Radium Ore",
   "block.firstmod.netherrack_sulfur_ore": "Sulfur Ore",
   "block.firstmod.nickel_block": "Nickel Block",
+  
   "block.firstmod.platinum_block": "Platinum Block",
+  
   "block.firstmod.raw_aluminum_block": "Raw Aluminum Block",
   "block.firstmod.raw_lead_block": "Raw Lead Block",
   "block.firstmod.raw_nickel_block": "Raw Nickel Block",
@@ -32,10 +53,32 @@
   "block.firstmod.raw_silver_block": "Raw Silver Block",
   "block.firstmod.raw_tin_block": "Raw Tin Block",
   "block.firstmod.raw_titanium_block": "Raw Titanium Block",
+
+  "block.firstmod.sakura_button": "Sakura Button",
+  "block.firstmod.sakura_door": "Sakura Door",
+  "block.firstmod.sakura_fence": "Sakura Fence",
+  "block.firstmod.sakura_fence_gate": "Sakura Fence Gate",
+  "block.firstmod.sakura_leaves": "Sakura Leaves",
+  "block.firstmod.sakura_log": "Sakura Log",
+  "block.firstmod.sakura_planks": "Sakura Planks",
+  "block.firstmod.sakura_pressure_plate": "Sakura Pressure Plate",
+  "block.firstmod.sakura_sapling": "Sakura Sapling",
+  "block.firstmod.sakura_slab": "Sakura Slab",
+  "block.firstmod.sakura_stairs": "Sakura Stairs",
+  "block.firstmod.sakura_trapdoor": "Sakura Trapdoor",
+  "block.firstmod.sakura_wood": "Sakura Wood",
+  "block.firstmod.sharinga_button": "Sharinga Button",
+  "block.firstmod.sharinga_door": "Sharinga Door",
+  "block.firstmod.sharinga_fence": "Sharinga Fence",
+  "block.firstmod.sharinga_fence_gate": "Sharinga Fence Gate",  
   "block.firstmod.sharinga_leaves": "Sharinga Leaves",
   "block.firstmod.sharinga_log": "Sharinga Log",
   "block.firstmod.sharinga_planks": "Sharinga Planks",
+  "block.firstmod.sharinga_pressure_plate": "Sharinga Pressure Plate",
   "block.firstmod.sharinga_sapling": "Sharinga Sapling",
+  "block.firstmod.sharinga_slab": "Sharinga Slab",
+  "block.firstmod.sharinga_stairs": "Sharinga Stairs",
+  "block.firstmod.sharinga_trapdoor": "Sharinga Trapdoor",
   "block.firstmod.sharinga_wood": "Sharinga Wood",
   "block.firstmod.silver_block": "Silver Block",
   "block.firstmod.stone_aluminum_ore": "Aluminum Ore",
@@ -46,16 +89,41 @@
   "block.firstmod.stone_silver_ore": "Silver Ore",
   "block.firstmod.stone_tin_ore": "Tin Ore",
   "block.firstmod.stone_titanium_ore": "Titanium Ore",
+  "block.firstmod.stripped_maple_log": "Stripped Maple Log",
+  "block.firstmod.stripped_maple_wood": "Stripped Maple Wood",
+  "block.firstmod.stripped_sakura_log": "Stripped Sakura Log",
+  "block.firstmod.stripped_sakura_wood": "Stripped Sakura Wood",
   "block.firstmod.stripped_sharinga_log": "Stripped Sharinga Log",
   "block.firstmod.stripped_sharinga_wood": "Stripped Sharinga Wood",
+  "block.firstmod.stripped_willow_log": "Stripped Willow Log",
+  "block.firstmod.stripped_willow_wood": "Stripped Willow Wood",
+  
   "block.firstmod.tin_block": "Tin Block",
   "block.firstmod.titanium_block": "Titanium Block",
 
+  "block.firstmod.willow_button": "Willow Button",
+  "block.firstmod.willow_door": "Willow Door",
+  "block.firstmod.willow_fence": "Willow Fence",
+  "block.firstmod.willow_fence_gate": "Willow Fence Gate",  
+  "block.firstmod.willow_leaves": "Willow Leaves",
+  "block.firstmod.willow_log": "Willow Log",
+  "block.firstmod.willow_planks": "Willow Planks",
+  "block.firstmod.willow_pressure_plate": "Willow Pressure Plate",
+  "block.firstmod.willow_sapling": "Willow Sapling",
+  "block.firstmod.willow_slab": "Willow Slab",
+  "block.firstmod.willow_stairs": "Willow Stairs",
+  "block.firstmod.willow_trapdoor": "Willow Trapdoor",
+  "block.firstmod.willow_wood": "Willow Wood",
+
+
   "container.firstmod.copper_hopper": "Copper Hopper",
+
   
   "item.firstmod.aluminum_ingot": "Aluminum Ingot",
   "item.firstmod.aluminum_nugget": "Aluminum Nugget",
   
+  "item.firstmod.basic_toolkit": "Basic Toolkit",
+  "item.firstmod.basic_toolset": "Basic Tool Set",
   "item.firstmod.buckler": "Buckler",
 
   "item.firstmod.copper_arrow": "Copper Arrow",
@@ -75,8 +143,11 @@
   "item.firstmod.copper_shears": "Copper Shears",
   "item.firstmod.copper_shovel": "Copper Shovel",
   "item.firstmod.copper_sword": "Copper Sword",
+  "item.firstmod.copper_wiring": "Copper Wiring",
 
   "item.firstmod.diamond_ring": "Diamond Ring",
+
+  "item.firstmod.empty_toolbox": "Empty Toolbox",
 
   "item.firstmod.feather_fletching": "Feather Fletching",
   "item.firstmod.flint_arrow": "Flint Arrow",
@@ -91,7 +162,10 @@
 
   "item.firstmod.lead_ingot": "Lead Ingot",
   "item.firstmod.lead_nugget": "Lead Nugget",
+  "item.firstmod.lead_pipe": "Lead Pipe",
   "item.firstmod.leather_scraps": "Leather Scraps",
+
+  "item.firstmod.micro_turbine": "Micro-Turbine",
 
   "item.firstmod.nickel_ingot": "Nickel Ingot",
   "item.firstmod.nickel_nugget": "Nickel Nugget",
@@ -138,8 +212,11 @@
   "item.firstmod.uncut_ruby": "Uncut Ruby",
 
   "item.firstmod.wooden_arrow": "Wooden Arrow",
+  "item.firstmod.wrench": "Wrench",
 
   "item.firstmod.zombie_jerky": "Zombie Jerky",
   
-  "itemGroup.firstmodCreativeTab": "Broede's All-In-One"
+  "itemGroup.firstmodCreativeTab": "Broede's All-In-One",
+
+  "menu.firstmod.display_name.basic_toolkit": "Basic Toolkit Menu"
 }

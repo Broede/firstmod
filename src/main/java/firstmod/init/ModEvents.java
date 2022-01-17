@@ -1,10 +1,15 @@
 package firstmod.init;
 
 import firstmod.core.FirstMod;
+import firstmod.world.inventory.BasicToolkitMenu;
+import firstmod.world.level.item.BasicToolkitItem;
 import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.MenuProvider;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -15,6 +20,7 @@ import net.minecraft.world.level.material.Material;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.network.NetworkHooks;
 
 @Mod.EventBusSubscriber(modid = FirstMod.MOD_ID)
 public class ModEvents {
@@ -39,6 +45,15 @@ public class ModEvents {
 					player.drop(string, false);
 				}
 			}
+		}
+	}
+	
+	@SubscribeEvent
+	public static void onPlayerRightClickWithItem(PlayerInteractEvent.RightClickItem event) {
+		Player player = event.getPlayer();
+		ItemStack item = player.getItemInHand(InteractionHand.MAIN_HAND);
+		if ( item.getItem() instanceof BasicToolkitItem ) {
+			player.openMenu(new BasicToolkitMenu(0, player.getInventory()));
 		}
 	}
 }

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "firstmod:sharinga_sapling"
+    "firstmod:maple_sapling",
+    "firstmod:sakura_sapling",
+    "firstmod:sharinga_sapling",
+    "firstmod:willow_sapling"
   ]
 }
